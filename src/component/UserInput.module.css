@@ -1,0 +1,59 @@
+.userInput {
+	height: 60px;
+	width: 60px;
+	border: solid #424242;
+	border-width: 3px;
+	background-color: #424242;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.userInputEntered {
+	height: 60px;
+	width: 60px;
+	border: solid #000000;
+	border-width: 3px;
+	background-color: #424242;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	transition: 0.5s;
+}
+
+.userInputEnteredCorrect {
+	height: 60px;
+	width: 60px;
+	border: solid #000000;
+	border-width: 3px;
+	background-color: #13b02b;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	transition: 0.5s;
+}
+.userInputEnteredIncorrect {
+	height: 60px;
+	width: 60px;
+	border: solid #000000;
+	border-width: 3px;
+	background-color: #b01313;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	transition: 0.5s;
+}
+button {
+	height: 68px;
+	width: 60px;
+	border: solid #000000;
+	border-width: 3px;
+	background-color: #5a5959;
+	color: white;
+}
+button:hover {
+	background-color: #a3a1a1;
+}
